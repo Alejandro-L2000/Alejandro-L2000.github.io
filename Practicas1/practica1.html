@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Diseño básico -->
+    <!-- Uso un archivo CSS aparte para una mejor presentación -->
+    <link rel="stylesheet" type="text/css" href="practica1s.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica#1-Horario</title>
+</head>
+<body>
+    <header></header>
+    <!-- Cuerpo en general, el TOPIC!-->
+    <main>
+        <!-- No se pone Main, debido a que form actua como div, seccion, footer, article, etc. -->
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <!-- El listado sirve para organizar mejor nuestros elementos -->
+                <li>
+                  <label for="name">Cliente:</label>
+                  <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                  <label for="mail">Correo electrónico:</label>
+                  <input type="email" id="mail" name="user_mail">
+                </li>
+                <li>
+                  <label for="cellphone">Precio del Producto:</label>
+                  <input type="number" id="phone" name="user_phone">
+                </li>
+                <li>
+                  <label for="direction">Dirección:</label>
+                  <input type="text" id="address" name="user_address">
+                </li>
+                <!-- Boton -->
+                <li class="button">
+                  <button type="submit">Envía sus registros</button>
+                </li>
+               </ul>
+        </form>
+    </main>
+</body>
+</html>
