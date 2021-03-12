@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#barranegra{
+    background-color: #202020;
+    color: RGB(255,255,255);
+    height: 35px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#barranegra span{
+    padding: 8px;
+    height: 24px;
+    /*margin: 12px*/
+}
+
+.importante{
+    background-color: #A22E3E;
+}
+
+#barraamarilla{
+    background-color: #D5B93A;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.servicios{
+    margin-top: 50px;
+}
+
+.noticias{
+    margin-top: 50px;
+    background-color: #F1F1F1;
+}
+
+.legal{
+    background-color: #202020;
+    color: #F1F1F1;
+}
+
+.legal a:visited{
+    color: #F1F1F1;
+}
+
+footer{
+    background-color: #323232;
+    color: #F1F1F1;
+}
