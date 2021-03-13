@@ -60,3 +60,13 @@ p b{
 li:last-child{
     border-bottom: 6px solid #323232;
 }
+
+main{
+    border-bottom: 4px solid rgba(5, 168, 170, 0.5);
+}
+
+footer{
+    position: absolute;
+    right: 0px;
+    color:aliceblue;
+}
