@@ -1,0 +1,22 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+#containernav{
+    width: 70%;
+    background-color: gray;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nombrerest{
+    background-color: red;
+    margin-right: auto;
+}
+
+#container{
+    background-color: green;
+}
