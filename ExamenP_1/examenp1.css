@@ -1,0 +1,76 @@
+*{
+    margin:0%;
+    padding:0%;
+    background-color: RGB(45,45,45);
+    box-sizing: border-box;
+}
+
+#titulo{
+    display:flex;
+    background-color: RGB(57,57,57);
+    color:white;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+}
+
+#barranav{
+    display:flex;
+    flex-direction: row;
+    background-color: RGB(82,75,56);
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Inconsolata', monospace;
+}
+
+#figuimp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#barranav a{
+    font-family: 'Inconsolata', monospace;
+}
+
+#figuimp #impo{
+    font-size: 20px;
+}
+
+#cajas{
+    background-color: RGB(27,27,27);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+
+#nombre{
+    font-family: 'Syne Mono', monospace;
+}
+
+#steve, #bill, #jeff, #mark{
+    background-color: RGB(27,27,27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+#steve #nombre, #bill #nombre, #jeff #nombre, #mark #nombre{
+    font-size: 20px;
+}
+
+#steve img, #bill img, #jeff img, #mark img{
+    height:200px;
+    width:200px;
+}
+
+#descripcion{
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
