@@ -1,20 +1,36 @@
 *{
-    padding:0%;
-    margin:0%;
+    padding:0;
+    margin:0;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #containernav{
     width: 70%;
     background-color: gray;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 50px;
+}
+
+#containernav span{
+    padding: 8px;
+    height: 24px;
 }
 
 #nombrerest{
-    background-color: red;
     margin-right: auto;
+    align-self: center;
+    font-size: 30px;
+}
+
+#arranque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container{
