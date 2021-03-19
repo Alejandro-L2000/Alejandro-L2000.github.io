@@ -5,15 +5,21 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body{
+    background-image: url("https://i.blogs.es/e420cc/sandwich-mixto-perfecto/840_560.jpg");
+    background-repeat: no-repeat;
+    background-size: 1980px 1080px;
+}
+
 #containernav{
-    width: 70%;
-    background-color: gray;
+    background-color: RGB(247,246,242);
     display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 0%;
-    padding-right: 0%;
+    justify-content: center;
+    align-items: center;
     height: 50px;
+    margin-right:15%;
+    margin-left:15%;
+    padding-bottom: 2%;
 }
 
 #containernav span{
@@ -23,16 +29,54 @@
 
 #nombrerest{
     margin-right: auto;
-    align-self: center;
     font-size: 30px;
+    font-weight: bold;
 }
 
 #arranque{
+    color: RGB(41,47,54);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:30px;
+    padding-top:1%;
+    padding-bottom:3%;
+}
+
+.black{
+    font-size: 40px;
+    font-weight: bold;
+    color:RGB(145,151,42)
 }
 
 #container{
-    background-color: green;
+    display:flex;
+    flex-flow:row wrap;
+    text-align: center;
+    background-color: RGB(247,246,242);
+    justify-content: center;
+    align-items: center;
+    margin-right:15%;
+    margin-left:15%;
+    border:5px dashed RGB(41,47,54);
+}
+
+#food{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+}
+
+#container img{
+    width:25%;
+    height:200px;
+}
+
+#titulofood{
+    padding-top:15%;
+    font-weight: bold;
+}
+
+#descripfood{
+    padding-top:15%;
 }
