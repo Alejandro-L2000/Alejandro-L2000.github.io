@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-image: url("https://www.aafoodservice.com/wp-content/themes/custom-theme/img/slider-v1704.jpg");
+    background-repeat: no-repeat;
+    background-size: 1575px 775px;
+}
+
+#containernav{
+    background-color: RGB(184, 216, 216);
+    margin-right:15%;
+    margin-left:15%;
+    padding-bottom: 2%;
+}
+
+#containernav span{
+    padding: 8px;
+    height: 24px;
+}
+
+#nombrerest{
+    margin-right: auto;
+    grid-column-start: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#arranque{
+    color: RGB(206, 129, 71);
+    display: grid;
+    grid-template: 60%/auto;
+    justify-content: center;
+    font-size:30px;
+    padding-top:1%;
+    padding-bottom:3%;
+}
+
+.black{
+    color: RGB(152, 68, 71);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#container{
+    background-color: RGB(122, 158, 159);
+    display:grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,190px);
+    align-items: stretch;
+    margin-right:15%;
+    margin-left:15%;
+    border: 4px solid RGB(206, 129, 71);
+}
+
+#container img{
+    width:100%;
+    height:190px;
+}
+
+#food{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+#titulofood{
+    padding-top:15%;
+    font-weight: bold;
+}
