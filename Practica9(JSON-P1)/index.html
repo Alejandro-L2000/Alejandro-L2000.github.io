@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica_JSON-P1</title>
+</head>
+<body>
+    <h1>Formulario JSON a String</h1>
+
+    <!-- Formato String a JSON -->
+    <form>
+        <span>Nombre:</span>
+        <input type="text" id="nombre">
+        <span>Apellido:</span>
+        <input type="text" id="apellido">
+        <span>Edad:</span>
+        <input type="number" id="edad">
+        <span>Correo:</span>
+        <input type="email" id="email">
+    </form>
+
+    <!-- Formato JSON -->
+    <div id="FJSON">
+        <textarea id="jsonform" rows="10" cols="50"></textarea>
+    </div>
+
+    <!-- Botones de acción -->
+    <div>
+        <button id="JSON">Cambiar a JSON</button>
+        <button id="fstring">Cambiar a String</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

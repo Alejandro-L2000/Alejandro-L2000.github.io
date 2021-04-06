@@ -1,0 +1,42 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(251, 245, 243);
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(72, 22, 32);
+    color:rgb(251, 245, 243);
+}
+
+div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+span input{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
