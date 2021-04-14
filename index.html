@@ -1,88 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Diseño básico -->
-    <!-- Solo por esta practica hare uso de Style, recomendado hacerlo en un archivo CSS aparte -->
+    <!-- Solo por esta ultima hare uso de Style para evitar una archivo CSS pequeño, NO RECOMENDADO. -->
     <style>
-        table, th, td {
-        border: 1px solid black;
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            background-color: snow;
+        }
+        .titulo{
+            text-align: center;
+            font-size: 60px;
+            border-bottom: 10px solid; 
+            border-color:#A22E3E;
+            margin-bottom: 10px;
+        }
+        #num2{
+            border-top: 7px dashed #8D918D;
         }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>Practica#1-Horario</title>
 </head>
 <body>
-    <header></header>
-    <!-- Cuerpo en general, el TOPIC!-->
-    <main>
-        <article>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>Horas</th>
-                        <th>Lunes</th>
-                        <th>Martes</th>
-                        <th>Miércoles</th>
-                        <th>Jueves</th>
-                        <th>Viernes</th>
-                    </tr>
-                    <tr>
-                        <td>2:00 a 3:00 pm</td>
-                        <td></td>
-                        <td></td>
-                        <td>Tutorías</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>3:00 a 5:00 pm</td>
-                        <td>Diseño de Páginas Web</td>
-                        <td></td>
-                        <td>Diseño de Páginas Web</td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>5:00 a 7:00 pm</td>
-                        <td>Desarrollo e Implementación de Sistemas</td>
-                        <td>Desarrollo e Implementación de Sistemas</td>
-                        <td>Desarrollo e Implementación de Sistemas</td>
-                        <td>Diseño de Páginas Web</td>
-                        <td>Sustentatbilidad en la Practica Pro. II</td>
-                    </tr>
-                    <tr>
-                        <td>7:00 a 9:00 pm</td>
-                        <td></td>
-                        <td>Optativa I: Técnicas de Mantenimiento</td>
-                        <td>Optativa I: Técnicas de Mantenimiento</td>
-                        <td>Optativa I: Técnicas de Mantenimiento</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-        <ul>
-            <li><a href="Practicas1/practica1.html">Mire aquí la práctica T1.5</a></li>
-            <li><a href="Practica2(Biografia)/practica2.html">Mire aquí la práctica T1.7</a></li>
-            <li><a href="Practica3(Replica_UNE)/practica3.html">Mire aquí la práctica de replicar la Página de la UNE (En forma HTML).</a></li>
-            <li><a href="Practica4(Flexbox)/posicion.html">Mire aquí testeo de Flexboxes.</a></li>
-            <li><a href="Practica5(Flexbox-Replica)/practica5.html">Mire aquí la práctica de Flexboxes.</a></li>
-            <li><a href="ExamenP_1/examenp1.html">Mire aquí mi prueba de Examen Parcial 1</a></li>
-            <li><a href="Practica6(Grid)/practica6.html">Mire aquí la práctica de Grid.</a></li>
-        </ul>
-        <p>Parcial 2° (JS)</p>
-        <ul>
-            <li><a href="Inicio_JS/index.html">Mire el primer ejercicio de Eventos en JS.</a></li>
-            <li><a href="Practica7(Gato_JS)/index.html">Mire el Juego de Gato.</a></li>
-            <li><a href="Practica8(Reloj_JS)/index.html">Mire el Reloj en JS.</a></li>
-            <li><a href="Practica9(JSON-P1)/index.html">Mire el Formulario a JSON.</a></li>
-            <li><a href="Practica10.1(JSON-P2)/index.html">Mire el uso de API para el Clima (T2.7).</a></li>
-            <li><a href="Practica10(JSON-P2)/index.html">Mire el uso de API para el Clima (T2.8).</a></li>
-            <li><a href="Practica10.2(JSON-P2)/index.html">Mire el uso de API para el Clima (T2.9).</a></li>
-            <li><a href="Practica11(UNE-Clon)/index.html">Ejercicio hecho por Alejandro Lárraga González y Francisco Rabatte Walle</a></li>
-        </ul>
+    <div class="container-fluid">
+        <p class="titulo">Parcial 1° (HTML & CSS)</p>
+        <div class="row">
+            <!-- Práctica #1 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P0.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #0: Horario</h5>
+                      <p class="card-text">Práctica que para ver conocimientos de HTML en creación de Tablas.</p>
+                      <a href="Practicas1/practica1.html" class="btn btn-primary">Ver práctica #0</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #2 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #1: Formulario</h5>
+                      <p class="card-text">Práctica que consiste en la elaboración de un formulario en HTML.</p>
+                      <a href="Practicas1/practica1.html" class="btn btn-primary">Ver práctica #1</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #3 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #2: Biografía</h5>
+                      <p class="card-text">Práctica que consiste en la elaboración de una Biografia.</p>
+                      <a href="Practica2(Biografia)/practica2.html" class="btn btn-primary">Ver práctica #2</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #4 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #3: Copia UNE P1.</h5>
+                      <p class="card-text">Práctica que consiste en copiar la estructura de HTML de la Página de la UNE.</p>
+                      <a href="Practica3(Replica_UNE)/practica3.html" class="btn btn-primary">Ver práctica #3</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #5 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #4: Ejercicio Flexbox.</h5>
+                      <p class="card-text">Práctica que pone aprueba lo aprendido de Flexbox.</p>
+                      <a href="Practica4(Flexbox)/posicion.html" class="btn btn-primary">Ver práctica #4</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #6 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #5: Flexbox copiar.</h5>
+                      <p class="card-text">Práctica que consiste en copiar una imagen de una Página Web haciendo uso de Flexbox.</p>
+                      <a href="Practica5(Flexbox-Replica)/practica5.html" class="btn btn-primary">Ver práctica #5</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #7 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #6: Grid.</h5>
+                      <p class="card-text">Práctica que consiste en la elaboración de la práctica anterior pero con Grid.</p>
+                      <a href="Practica6(Grid)/practica6.html" class="btn btn-primary">Ver práctica #6</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Examen P1 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Examen Parcial 1°</h5>
+                      <p class="card-text">Examen del Primer Parcial.</p>
+                      <a href="ExamenP_1/examenp1.html" class="btn btn-primary">Ver examen.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="titulo" id="num2">Parcial 2° (JS)</p>
+        <div class="row">
+            <!-- Práctica #8 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P8.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #7: Gato_JS.</h5>
+                      <p class="card-text">Práctica que consiste en crear una replica del juego de Gato con JS.</p>
+                      <a href="Practica7(Gato_JS)/index.html" class="btn btn-primary">Ver práctica #7</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #9 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #8: Reloj hecho con JS</h5>
+                      <p class="card-text">Práctica que tiene como objetivo crear un reloj con funciones de JS.</p>
+                      <a href="Practica8(Reloj_JS)/index.html" class="btn btn-primary">Ver práctica #8</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #10 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #9: JSON.</h5>
+                      <p class="card-text">Práctica que consiste en construir un archivo en formato JSON y que pueda convertir de un formulario de String a JSON y viceversa.</p>
+                      <a href="Practica9(JSON-P1)/index.html" class="btn btn-primary">Ver práctica #9</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #11 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P11.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #10: Clima con JSON P1.</h5>
+                      <p class="card-text">Práctica que hace uso del formato JSON + API para obtener datos climaticos de Tampico.</p>
+                      <a href="Practica10.1(JSON-P2)/index.html" class="btn btn-primary">Ver práctica #10</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #12 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P12.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #11: Clima con JSON P2.</h5>
+                      <p class="card-text">Mejora de la práctica anteior para hacer uso de datos tipo String y consultar datos de otros lugares.</p>
+                      <a href="Practica10(JSON-P2)/index.html" class="btn btn-primary">Ver práctica #11</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #13 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P13.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #12: Clima con JSON P3.</h5>
+                      <p class="card-text">Mejora de la práctica anterior que incorpora un mapa totalmente funcional a nuestra tabla, haciendo uso de API y Tokens.</p>
+                      <a href="Practica10.2(JSON-P2)/index.html" class="btn btn-primary">Ver práctica #12</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Práctica #14 -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Portafolio/P14.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Práctica #13: Copia UNE P2.</h5>
+                      <p class="card-text">Mejora de la Página de la UNE con los conocimientos obtenidos.</p>
+                      <a href="Practica11(UNE-Clon)/index.html" class="btn btn-primary">Ver práctica #13</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
