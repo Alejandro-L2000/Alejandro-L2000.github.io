@@ -1,0 +1,26 @@
+*{
+    background-color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#datos{
+    margin-top: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
